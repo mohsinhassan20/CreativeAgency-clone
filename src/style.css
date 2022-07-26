@@ -26,7 +26,7 @@
     text-decoration-line: blink;
   
   }
-  
+ 
   nav {
     background: transparent;
     padding-top: 33px;
@@ -619,5 +619,90 @@
           width: 551px;
           height: 388px;
           justify-content: space-between;
+        }
+        
+        .bradings {
+          max-width: 209px;
+          height: 150pxpx;
+          margin-left: 7px;
+          margin-top: 41px;
+        }
+        h1.br-h {
+          font-size: 16px;
+          margin-right: -4px;
+        }
+        p {
+          text-align: center;
+        }
+        
+        .gi-2 {
+          width: 670px;
+        }
+        .pf-quote
+        {
+            line-height: 21px;
+          margin-left: 9px;
+          font-size: 25px;margin-top: 21px;
+        }
+        .branding-types {
+          display: flex;
+position: relative;
+margin-left: 34px;
+          width: 678px;
+          height: 391px;
+          justify-content: space-between;
+        }
+
+        .pf-card > img {
+          width: 134px;
+          height: 114px;
+        }
+
+        .portfolio {
+          margin-left: 37px;
+          position: relative;
+          top: 430px;
+        }
+
+        #contact {
+          position: relative;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 1600px;
+          height: 639.3px;
+          top: 270px;
+        }
+        .portfolio {
+          grid-template-columns: 141px 141px 141px 8px;
+        }
+        p {
+          text-align: center;
+
+        }
+
+        h5 {
+          font-family: Vollkorn, serif;
+          font-size: 11px;
+          line-height: 1px;
+          letter-spacing: 1px;
+          margin-left: 7px;
+        }
+        .pf-quote {
+          line-height: 19px;
+          margin-left: 1px;
+          font-size: 25px;
+          margin-top: 0px;
+        }
+        .figure h5 {
+          font-family: Vollkorn, serif;
+          line-height: 18px;
+          font-size: 12px;
+        }
+        
+        p.latest-creations
+        {
+            display: none;
+          
         }
       }
