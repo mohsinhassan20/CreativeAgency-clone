@@ -749,14 +749,29 @@ margin-left: 34px;
 }
 }
 @media screen and (max-width:320px) {
-  *
-  {
-    background: #000;
-    
-  } #logo {
+ 
+   #logo {
     margin-top: -1px;
     width: 44px;
     margin-left: 5px;
   }
+
+nav
+{
+    display: none;
   
+}
+  .myslides
+  {
+      width: 100%;
+      display: block;
+      height: 330px;
+    
+  }
+  .dp-slider {
+    top: 15%;
+    margin-left: 147px;
+    font-size: 19px;
+    line-height: 18px;
+  }
 }
