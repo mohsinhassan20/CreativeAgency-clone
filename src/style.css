@@ -253,16 +253,11 @@
   {
     background-color: #e3e1d3;
   }
-  .bradings
-  {
-    background-color: whitesmoke;
-  height: 520px;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   
-  align-items: center;
+ .branding-types {
+    display: flex;
+    position: relative;
+    margin-left: 77px;
   }
   .bradings>img{
     position: relative;
@@ -270,7 +265,16 @@
     width: 125px;
     height: 125px;
   }
-  
+  div.bradings {
+    background-color: whitesmoke;
+    height: 431px;
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+  }
   .flex
   {
     display: flex;
@@ -437,3 +441,183 @@
  input.button{
  margin-left: 100px;
  }
+
+ @media  screen and (max-width:1434px) {
+  .grid-container {
+   
+    margin-left: 0px;
+    
+    /* gap: 43px; */
+    row-gap: 18px;
+    
+  }
+ 
+  .grid-container {
+    column-gap: 0px;
+     }
+
+     .card, .card > img {
+      width: 650px;
+      height: 548px;
+      margin-left: 41px;
+    }
+    .portfolio {
+      
+      grid-template-columns: 298px 316px 323px 338px;
+      
+    }
+
+    #form-n-text {
+      margin-right: 86px;
+         }
+ }
+
+ @media screen and (max-width:1395px) {
+
+   
+  .card > img {
+    width: 661px;
+    height: 548px;
+    margin-left: 11px;
+  }
+  .button {
+    left: 156px;
+  }
+  div.bradings {
+    background-color: whitesmoke;
+    height: 431px;
+    width: 429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px; */
+  }
+
+  .portfolio {
+    margin-left: 37px;
+   
+  }
+
+
+ }
+
+ @media screen and (max-width:1024px) {
+  .dp-slider {
+    top: 17%;
+      }
+      .sub-tag {
+        top: 51%;
+      }
+  
+ }
+
+ @media screen and (max-width:768px) {
+   
+    
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .data {
+      top: 14px;
+      max-width: 26px;
+    }
+    .figure > h2, h5 {
+      letter-spacing: -1px;
+      line-height: 1;
+    }
+    .figures {
+      position: relative;
+      margin-left: -43px;
+       }
+
+       .sub-tag {
+        top: 40%;
+        max-width: 345px;
+        margin-left: 356px;
+      }
+
+      .dp-slider {
+        top: 29%;
+        margin-left: 274px;
+        font-size: 47px;
+      }
+.bradings
+{
+  max-width: 150px;
+  height: 150pxpx;
+}
+.bradings>img {
+  width: 50px;
+};
+      .card > img {
+        width: 683px;
+        height: 410px;
+        margin-left: -23px;
+        /* margin-right: -23px; */
+      }
+      .quotes-h {
+        margin-right: 569px;
+      }
+      
+
+      #form-n-text {
+        margin-right: 757px;
+      }
+      textarea {
+        width: 546px;
+        height: 52.3px;
+      }
+      .text-field {
+        width: 540px;
+        height: 21px;
+      }
+      button, input, select, textarea, optgroup {
+        font: inherit;
+        margin: 0 auto;
+      }
+      input.button {
+        margin-left: 64px;
+      }
+      .footer {
+        width: 726.6px;
+        height: 228px;    }
+        .content-g2 > h2 {
+          font-size: 21px;
+          line-height: 23px;
+        }
+        h1.br-h {font-size: 5px
+        };
+        
+        .text-field {
+          width: 547px;
+          height: 21px;
+          margin-left: 123px;
+        }    
+        
+        #form-n-text {
+          margin-right: 560px;
+        } 
+        .br-h {
+          margin-right: 168px;
+        }   
+        #logo {
+          margin-top: 12px;
+          width: 60px;
+          margin-left: 41px;
+        }
+        .content-g2 {
+          margin-top: 22px;
+          height: 291px;
+        }
+        .quotes {
+          position: relative;
+          top: 440px;
+        }
+        .branding-types {
+          width: 551px;
+          height: 388px;
+          justify-content: space-between;
+        }
+      }
