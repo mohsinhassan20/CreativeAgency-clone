@@ -705,4 +705,47 @@ margin-left: 34px;
             display: none;
           
         }
+        .quotes h5
+        {
+            margin-right: 570px;
+          
+        }
+        .quotes-heading {
+          font-size: 20px;
+          /* margin-left: ; */
+          margin-right: 713px;
+          font-size: 15px;
+        }
+        .quote1 h3 
+        {
+          margin-right: 615px;
+          font-size: 13px;
+          line-height: 1px;
+        
+        }
+         .pf-quote h5 
+         {
+          font-family: 'Vollkorn', serif;
+              font-size: 11px;
+              line-height: 8px;
+              letter-spacing: 1px;
+         }
+         .we-app
+         {
+          font-family: Vollkorn, serif;
+          margin-right: 170px;
+        }
+.lb
+{
+  margin-right: 160px;
+}
+.footer {
+	/* width: 1477px; */
+	height: 317px;
+	padding: 20px;
+	background: #000;
+	position: relative;
+	top: 204px;
+	max-width: inherit;
+}
       }
