@@ -774,4 +774,16 @@ nav
     font-size: 19px;
     line-height: 18px;
   }
+  .w3-left,.w3-right
+  {
+    display: none;
+  }
+  .gi-1
+  {
+    display: none;
+  }
+  .gi-2 {
+    width: 299px;
+    margin-left: 0px;
+  }
 }
