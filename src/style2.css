@@ -1,0 +1,21 @@
+
+*{
+    background:  
+    #000;   
+   }
+   
+
+   @media screen and (max-width :1500px) {
+    *
+    {
+       background:blue;
+    }
+}
+
+   @media screen and (min-width :1400px) and (max-width:1499px){
+    *
+    {
+       background: red;
+    }
+}
+
