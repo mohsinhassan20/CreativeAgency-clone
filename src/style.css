@@ -35,7 +35,9 @@ bigger screen to smaller screens*/
     font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
   }
-
+  .fa.fa-bars{
+    display: none;
+  }
   .w3-left,
   .w3-right,
   .w3-badge {
@@ -491,8 +493,12 @@ bigger screen to smaller screens*/
   }
   h1.br-h {
     font-size: 5px;
+    font-family: 'Montserrat', sans-serif"
   }
-
+  .h-contact
+  {
+    font-size: 10px;
+  }
   .text-field {
     width: 547px;
     height: 21px;
@@ -649,68 +655,211 @@ bigger screen to smaller screens*/
 }
 
 @media screen and (min-width: 0px) and (max-width: 375px) {
-  body {
-    margin: 5px;
-  }
+ 
+   
   #logo {
-    width: 39px;
+    width: 50px;
     height: 37px;
-    margin-top: 14px;
+    margin-top: -8px;
+    /* position: ; */
+    z-index: 12;
+    background: black;
+    margin-left: 29px;
   }
   span {
     /* justify-content: space-around; */
     display: flex;
     max-width: 304px;
     margin-top: 25px;
-    position: absolute;
+    position: relative;
   }
   nav > a {
     display: none;
-  }
-
-  .fa.fa-bars {
+  }.fa.fa-bars {
     /* text-align: right; */
     /* margin-right: 32px; */
     margin-left: 241px;
-    margin-top: 29px;
+    margin-top: 3px;
   }
 
+  .fa.fa-bars:hover {
+    
+  cursor: pointer;}
   .w3-center {
     display: none;
   }
-
   .dp-slider {
     position: absolute;
     font-size: 22px;
-    margin-left: 110px;
-    margin-top: 219px;
+    margin-left: 169px;
+    margin-top: 168px;
     font-weight: bold;
     max-width: 192px;
-  }
-
-  .sub-tag {
-    font-size: 11px;
+    color: white;
+  } .sub-tag {
+    font-size: 12px;
     max-width: 175px;
     color: white;
     position: relative;
-    top: 294px;
-    margin-left: 110px;
+    top: 240px;
+    margin-left: 159px;
+    font-weight: bold;
   }
-  .myslides {
-    position: absolute;
-    display: block;
-    height: 406px;
-    width: 313px;
-    top: 0px;
-    padding: 5px;
-  }
+ 
   .gi-1 {
     display: none;
   }
   .dp-slider2 {
     display: none;
   }
+    .mySlides {
+      display: block;
+      position: absolute;
+      top: 0px;
+      z-index: -1;
+      max-width: 340px;
+      height: 387px;
+      margin-top: 5px;
+      margin-left: 8px;
+      margin-right: 5px;
+    }
+    h2,h3,h5 
+    {
+     
+      text-align: center;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 25px;
+    }
+    p
+    {
+        max-width: 305px;
+        font-size: 8px;
+        margin: 0 auto;
+      
+    }
+    .button
+    {
+        height: 46px;
+        font-size: 8px;
+        width: 125px;
+        margin: 15px ;
+        margin-left: 30px;
+        border-radius: 0px;
+      
+    }
+    .flex{
+      background-color: aqua;
+      width: 340px;
+      margin-left: 10px;
+
+    }
+
+    .flex img
+    {
+      margin-left: 150px;
+      margin-top: 25px;
+    }
+    .br-h
+    { 
+
+      text-align: center;
+      font-weight: bold;
+    }
+    div.brandings>.service1>img
+    {
+      width: 50px;
+    }
+    #footer-img
+    {
+      width: 64px;
+      height: 42px;
+      margin-top: 30px;
+      
+    }
+    .footer-div {
+      max-width: 350px;
+      margin-left: 5px;
+      background: black;
+     
+    }
+    #menu,#contact-footer,#address
+    {
+      color: whitesmoke;
+    }
+    
+    #contact-footer
+    {
+      margin-left: 10px;
+    }
+    .footer-text
+    {
+      color: white;
+      text-align: center;
+    }
+    .footer-content
+    {
+      display: flex;
+justify-content: space-around;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+    .footer-text
+    { 
+      display: flex;
+      flex-direction: column;
+      column-gap: 50px;
+    }
+    .label
+    {
+      text-align: center;
+    }
+    .contact-form,#email-form
+    {
+      display: grid;
+      align-content: center;
+      justify-content: center;
+    }
+    .portfolio
+    {
+      display: grid;
+grid-template-columns: 186px 100px;
+margin-left: 40px;
+    }
+
+.portfolio {
+	display: grid;
+	grid-template-columns: 186px 100px;
+	margin-left: 12px;
+	background: black;
+	row-gap: 15px;
 }
+
+.pf-card {
+	width: 156px;
+	margin-left: 1px;
+	background: antiquewhite;
+	height: 140px;
+}
+.pf-card img {
+	width: 165px;
+	height: 145px;
+}
+.pf-card h5
+{
+    max-width: 153px;
+    font-size: 10px;
+    /* font-style: ; */
+    font-family: 'Montserrate';
+    font-weight: bold;
+    font-style: italic;
+    overflow: hidden;
+    margin-bottom: -9px;
+  
+}
+  }
 
 /* 
 @media screen and (max-width: 1434px) {
