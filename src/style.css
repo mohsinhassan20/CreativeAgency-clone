@@ -896,6 +896,13 @@ text-align: center;
 	width: 340px;
 	margin-left: 10px;
 }
+.gi-2{
+  background-color:#f2f2f2;
+}
+ .data
+ {
+  display: flex;
+ }
 }
 
 /* 
