@@ -909,12 +909,69 @@ text-align: center;
 	height: 200px;
 	margin-left: 17px;
 }
- .grid-container
- {
-  display: grid;
-  grid-template-columns: 1fr;
+ 
+ .about {
+	position: relative;
+	top: 275px;
+}
+.figures {
+	position: relative;
+	top: 295px;
+}
+.services
+{
+    position: relative;
+    top: 315px;
+  
+}
 
- }
+.quotes
+{
+    position: relative;
+    position: relative;
+    top: 355px;
+  
+}
+.saying
+{
+    position: relative;
+    top: -15px;
+  
+}
+.portfolio {
+	display: grid;
+	grid-template-columns: 186px 100px;
+	margin-left: 12px;
+	row-gap: 15px;
+	position: relative;
+	top: 377px;
+}
+#contact
+{
+    display: grid;
+    grid-template-columns: 186px 100px;
+    margin-left: 12px;
+    row-gap: 15px;
+    position: relative;
+    top: 377px;
+  
+}
+.footer-div {
+	max-width: 350px;
+	margin-left: 5px;
+	background: black;
+	margin-left: 16px;
+	position: relative;
+	top: 395px;
+}
+#contact {
+	display: grid;
+	grid-template-columns: 186px 100px;
+	margin-left: 64px;
+	row-gap: 15px;
+	position: relative;
+	top: 377px;
+}
 }
 
 /* 
