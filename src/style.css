@@ -408,14 +408,86 @@ bigger screen to smaller screens*/
     margin-left: 100px;
   }
 }
-
+/* 
 @media screen and (min-width: 388px) and (max-width: 768px) {
-  * {
+  
+  .mySlides{
+    display: block;
+    position: absolute;
+    top: -23px;
+    height: 26rem;
+    width: 100%;
   }
-}
+  .about
+  {
+     position: relative;
+      top: 365px;
+    
+
+  }
+  .card, .card > img {
+    width: 450px;
+    height: 425px;
+  }
+  .about {
+    position: relative;
+    top: 365px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ///column-gap: 0px; 
+  }
+  .gi-2,.gi-1,.gi-3,.gi-4
+  {
+      width: 160px;
+      margin-left: -245px;
+      width: 470px;
+    
+  }
+  element {
+    display: block;
+    position: absolute;
+    top: -23px;
+    height: 26rem;
+    width: 100%;
+    z-index: -1;
+  }
+  #logo
+  {
+      width: 60px;
+      height: 60px;
+    
+  }
+
+ span{
+    display: flex;
+    margin-top: 6px;
+  }
+  nav {
+    margin-left: 30%;
+    text-decoration: none;
+    color: white;
+    font-style: ; 
+    
+  }
+
+  .fa,.fa-bars {
+    display: none;
+  }
+  .dp-slider
+  {
+       position: relative;
+      top: 61px;
+      text-align: center;
+      margin-left: 505px;
+    
+  }
+  .dp-slider2{
+    display: none;
+  }
+} */
 
 @media screen and (min-width: 388px) and (max-width: 768px) {
-  .grid-container {
+  /* .grid-container {
     display: flex;
     flex-direction: column;
   }
@@ -455,7 +527,7 @@ bigger screen to smaller screens*/
     width: 683px;
     height: 410px;
     margin-left: -23px;
-    /* margin-right: -23px; */
+    margin-right: -23px; 
   }
   .quotes-h {
     margin-right: 569px;
@@ -616,7 +688,6 @@ bigger screen to smaller screens*/
   }
   .quotes-heading {
     font-size: 20px;
-    /* margin-left: ; */
     margin-right: 713px;
     font-size: 15px;
   }
@@ -639,7 +710,6 @@ bigger screen to smaller screens*/
     margin-right: 160px;
   }
   .footer {
-    /* width: 1477px; */
     height: 317px;
     padding: 20px;
     background: #000;
@@ -656,7 +726,34 @@ bigger screen to smaller screens*/
     position: relative;
     top: 249px;
     padding: 2px;
-  }
+  } */
+.sub-tag
+{
+  display: none;
+}
+.gi-1
+{
+ 
+    max-width: 354px;
+    margin-left: 8px;
+  
+}
+.portfolio{
+	width: 350px;
+	margin-left: 130px;
+	/* width: 470px; */
+	max-width: 354px;
+	margin-top: -26px;
+  background-color: rgb(224, 35, 35);
+  grid-template-columns: 1100px 100px 100px 100px ;
+column-gap: 25px;
+}
+.pf-card img
+{
+    width: 150px;
+    height: 150px;display: none;
+  
+}
 }
 
 
@@ -995,6 +1092,12 @@ text-align: center;
 {
     margin-left: 47px;
   
+}
+.mySlides {
+	display: block;
+	position: absolute;
+	top: -23px;
+	height: 26rem;
 }
 }
 
