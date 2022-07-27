@@ -486,7 +486,7 @@ bigger screen to smaller screens*/
   }
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 388px) and (max-width: 768px) {
   /* .grid-container {
     display: flex;
     flex-direction: column;
@@ -758,7 +758,7 @@ column-gap: 25px;
 
 
 
-@media screen and (max-width: 388px) {
+@media screen and (min-width: 0px) and (max-width: 388px) {
  
    
   #logo {
