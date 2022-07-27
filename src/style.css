@@ -963,14 +963,31 @@ text-align: center;
 	margin-left: 16px;
 	position: relative;
 	top: 395px;
+} 
+.h-contact {
+	text-align: center;
+	font-weight: bold;
+	max-width: 155px;
+	font-size: 20px;
+	margin-left: 11px;
+	margin-top: 23px;
+}
+.we-app{
+	font-family: Vollkorn, serif;
+	font-size: 11px;
 }
 #contact {
 	display: grid;
 	grid-template-columns: 186px 100px;
-	margin-left: 64px;
+	margin-left: 106px;
 	row-gap: 15px;
 	position: relative;
 	top: 377px;
+}
+.button-submit
+{
+    margin-left: 47px;
+  
 }
 }
 
