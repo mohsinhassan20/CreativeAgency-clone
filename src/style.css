@@ -436,6 +436,40 @@ bigger screen to smaller screens*/
     top: 0px;
     z-index: -1;
   }
+  .contact-form,
+  #email-form {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+  .text-field {
+    width: 710px;
+    height: 50px;
+  }
+  .button-submit {
+    width: 165px;
+    height: 40px;
+    border-radius: 0px;
+    justify-self: center;
+    margin-top: 14px;
+  }
+  #footer-img {
+    width: 83px;
+    /* height: 100px; */
+    margin-top: 55px;
+    height: 75px;
+  }
+  .footer-link,
+  h6,
+  p,
+  #address,
+  #menu,
+  #contact-footer {
+    color: white;
+  }
+  .footer-div {
+    background: #000;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 388px) {
