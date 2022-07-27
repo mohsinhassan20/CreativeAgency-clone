@@ -1,7 +1,7 @@
 /*universal 
 
 bigger screen to smaller screens*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   /*workin on responsivness*/
   * {
     padding: 0;
@@ -409,12 +409,12 @@ bigger screen to smaller screens*/
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   * {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 388px) and (max-width: 768px) {
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -649,12 +649,9 @@ bigger screen to smaller screens*/
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  * {
-  }
-}
 
-@media screen and (min-width: 0px) and (max-width: 375px) {
+
+@media screen and (min-width: 0px) and (max-width: 388px) {
  
    
   #logo {
