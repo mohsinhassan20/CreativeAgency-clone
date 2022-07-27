@@ -779,7 +779,7 @@ font-size: 23px;
       max-width: 350px;
       margin-left: 5px;
       background: black;
-     
+      margin-left: 16px;
     }
     #menu,#contact-footer,#address
     {
@@ -901,7 +901,20 @@ text-align: center;
 }
  .data
  {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .card4 img
+ {
+  width:335px;
+  height: 200px;
+ }
+ .card4{
+  padding: 20px;
+ }
+ .gi-3
+ {
+  margin-top: 95px;
  }
 }
 
