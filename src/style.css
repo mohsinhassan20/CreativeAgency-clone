@@ -409,7 +409,7 @@ bigger screen to smaller screens*/
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 388px) and (max-width: 768px) {
   * {
   }
 }
@@ -645,7 +645,17 @@ bigger screen to smaller screens*/
     background: #000;
     position: relative;
     top: 204px;
-    max-width: inherit;
+    max-width: 100%;
+  }
+
+  .footer-div {
+    max-width: 100%;
+   
+    background: black;
+    
+    position: relative;
+    top: 249px;
+    padding: 2px;
   }
 }
 
