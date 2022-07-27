@@ -321,7 +321,6 @@ bigger screen to smaller screens*/
     padding-bottom: 16px;
     padding-right: 5px;
     padding-left: 15px;
-    /* width: max-content; */
   }
 
   .quotes-h {
@@ -341,7 +340,6 @@ bigger screen to smaller screens*/
     max-width: 355px;
   }
   .footer {
-    /* width: 1477px; */
     height: 317px;
     padding: 20px;
     background: #000;
@@ -400,9 +398,8 @@ bigger screen to smaller screens*/
     height: 408px;
     display: flex;
     justify-content: space-between;
-    /* margin-left: -6px; */
+
     max-width: 1200px;
-    /* row-gap: 66px; */
   }
   input.button {
     margin-left: 100px;
@@ -411,346 +408,33 @@ bigger screen to smaller screens*/
     height: 0px;
   }
 }
-/* 
-@media screen and (min-width: 388px) and (max-width: 768px) {
-  
-  .mySlides{
-    display: block;
-    position: absolute;
-    top: -23px;
-    height: 26rem;
-    width: 100%;
-  }
-  .about
-  {
-     position: relative;
-      top: 365px;
-    
-
-  }
-  .card, .card > img {
-    width: 450px;
-    height: 425px;
-  }
-  .about {
-    position: relative;
-    top: 365px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    ///column-gap: 0px; 
-  }
-  .gi-2,.gi-1,.gi-3,.gi-4
-  {
-      width: 160px;
-      margin-left: -245px;
-      width: 470px;
-    
-  }
-  element {
-    display: block;
-    position: absolute;
-    top: -23px;
-    height: 26rem;
-    width: 100%;
-    z-index: -1;
-  }
-  #logo
-  {
-      width: 60px;
-      height: 60px;
-    
-  }
-
- span{
-    display: flex;
-    margin-top: 6px;
-  }
-  nav {
-    margin-left: 30%;
-    text-decoration: none;
-    color: white;
-    font-style: ; 
-    
-  }
-
-  .fa,.fa-bars {
-    display: none;
-  }
-  .dp-slider
-  {
-       position: relative;
-      top: 61px;
-      text-align: center;
-      margin-left: 505px;
-    
-  }
-  .dp-slider2{
-    display: none;
-  }
-} */
 
 @media screen and (min-width: 388px) and (max-width: 768px) {
-  /* .grid-container {
+  span {
     display: flex;
-    flex-direction: column;
-  }
-  .data {
-    top: 14px;
-    max-width: 26px;
-  }
-  .figure > h2,
-  h5 {
-    letter-spacing: -1px;
-    line-height: 1;
-  }
-  .figures {
-    position: relative;
-    margin-left: -43px;
-  }
-
-  .sub-tag {
-    top: 40%;
-    max-width: 345px;
-    margin-left: 356px;
-  }
-
-  .dp-slider {
-    top: 29%;
-    margin-left: 274px;
-    font-size: 47px;
-  }
-  .bradings {
-    max-width: 150px;
-    height: 150pxpx;
-  }
-  .bradings > img {
-    width: 50px;
-  }
-  .card > img {
-    width: 683px;
-    height: 410px;
-    margin-left: -23px;
-    margin-right: -23px; 
-  }
-  .quotes-h {
-    margin-right: 569px;
-  }
-
-  #form-n-text {
-    margin-right: 757px;
-  }
-  textarea {
-    width: 546px;
-    height: 52.3px;
-  }
-  .text-field {
-    width: 540px;
-    height: 21px;
-  }
-  button,
-  input,
-  select,
-  textarea,
-  optgroup {
-    font: inherit;
-    margin: 0 auto;
-  }
-  input.button {
-    margin-left: 64px;
-  }
-  .footer {
-    width: 726.6px;
-    height: 228px;
-  }
-  .content-g2 > h2 {
-    font-size: 21px;
-    line-height: 23px;
-  }
-  h1.br-h {
-    font-size: 5px;
-    font-family: 'Montserrat', sans-serif"
-  }
-  .h-contact
-  {
-    font-size: 10px;
-  }
-  .text-field {
-    width: 547px;
-    height: 21px;
-    margin-left: 123px;
-  }
-
-  #form-n-text {
-    margin-right: 560px;
-  }
-  .br-h {
-    margin-right: 168px;
+    background: black;
+    width: 99%;
+    padding: 5px;
+    /* margin-left: 0; */
   }
   #logo {
-    margin-top: 12px;
-    width: 60px;
-    margin-left: 41px;
+    width: 100px;
+    height: 100px;
   }
-  .content-g2 {
-    margin-top: 22px;
-    height: 291px;
-  }
-  .quotes {
-    position: relative;
-    top: 440px;
-  }
-  .branding-types {
-    width: 551px;
-    height: 388px;
-    justify-content: space-between;
-  }
-
-  .bradings {
-    max-width: 209px;
-    height: 150pxpx;
-    margin-left: 7px;
-    margin-top: 41px;
-  }
-  h1.br-h {
-    font-size: 16px;
-    margin-right: -4px;
-  }
-  p {
-    text-align: center;
-  }
-
-  .gi-2 {
-    width: 670px;
-  }
-  .pf-quote {
-    line-height: 21px;
-    margin-left: 9px;
-    font-size: 25px;
-    margin-top: 21px;
-  }
-  .branding-types {
-    display: flex;
-    position: relative;
-    margin-left: 34px;
-    width: 678px;
-    height: 391px;
-    justify-content: space-between;
-  }
-
-  .pf-card > img {
-    width: 134px;
-    height: 114px;
-  }
-
-  .portfolio {
-    margin-left: 37px;
-    position: relative;
-    top: 430px;
-  }
-
-  #contact {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 1600px;
-    height: 639.3px;
-    top: 270px;
-  }
-  .portfolio {
-    grid-template-columns: 141px 141px 141px 8px;
-  }
-  p {
-    text-align: center;
-  }
-
-  h5 {
-    font-family: Vollkorn, serif;
-    font-size: 11px;
-    line-height: 1px;
-    letter-spacing: 1px;
-    margin-left: 7px;
-  }
-  .pf-quote {
-    line-height: 19px;
-    margin-left: 1px;
-    font-size: 25px;
-    margin-top: 0px;
-  }
-  .figure h5 {
-    font-family: Vollkorn, serif;
-    line-height: 18px;
-    font-size: 12px;
-  }
-
-  p.latest-creations {
+  nav {
     display: none;
   }
-  .quotes h5 {
-    margin-right: 570px;
+  .fa.fa-bars.fa-lg {
+    font-size: 3.25em;
+    line-height: 2.05em;
+    vertical-align: -0.075em;
+    margin-left: 700px;
   }
-  .quotes-heading {
-    font-size: 20px;
-    margin-right: 713px;
-    font-size: 15px;
-  }
-  .quote1 h3 {
-    margin-right: 615px;
-    font-size: 13px;
-    line-height: 1px;
-  }
-  .pf-quote h5 {
-    font-family: "Vollkorn", serif;
-    font-size: 11px;
-    line-height: 8px;
-    letter-spacing: 1px;
-  }
-  .we-app {
-    font-family: Vollkorn, serif;
-    margin-right: 170px;
-  }
-  .lb {
-    margin-right: 160px;
-  }
-  .footer {
-    height: 317px;
-    padding: 20px;
-    background: #000;
-    position: relative;
-    top: 204px;
-    max-width: 100%;
-  }
-
-  .footer-div {
-    max-width: 100%;
-   
-    background: black;
-    
-    position: relative;
-    top: 249px;
-    padding: 2px;
-  } */
-  .sub-tag {
-    display: none;
-  }
-  .gi-1 {
-    max-width: 354px;
-    margin-left: 8px;
-  }
-  .portfolio {
-    width: 350px;
-    margin-left: 130px;
-    /* width: 470px; */
-    max-width: 354px;
-    margin-top: -26px;
-    background-color: rgb(224, 35, 35);
-    grid-template-columns: 1100px 100px 100px 100px;
-    column-gap: 25px;
-  }
-  .pf-card img {
-    width: 150px;
-    height: 150px;
-    display: none;
+  .mySlides {
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
   }
 }
 
@@ -759,13 +443,11 @@ bigger screen to smaller screens*/
     width: 50px;
     height: 37px;
     margin-top: -8px;
-    /* position: ; */
     z-index: 12;
     background: black;
     margin-left: 29px;
   }
   span {
-    /* justify-content: space-around; */
     display: flex;
     max-width: 304px;
     margin-top: 25px;
@@ -775,8 +457,6 @@ bigger screen to smaller screens*/
     display: none;
   }
   .fa.fa-bars {
-    /* text-align: right; */
-    /* margin-right: 32px; */
     margin-left: 241px;
     margin-top: 3px;
   }
@@ -1066,64 +746,3 @@ bigger screen to smaller screens*/
     height: 26rem;
   }
 }
-
-/* 
-@media screen and (max-width: 1434px) {
-  .grid-container {
-    margin-left: 0px;
-
-    //   row-gap: 18px;
-  }
-
-  .grid-container {
-    column-gap: 0px;
-  }
-
-  .card,
-  .card > img {
-    width: 650px;
-    height: 548px;
-    margin-left: 41px;
-  }
-  .portfolio {
-    grid-template-columns: 298px 316px 323px 338px;
-  }
-
-  #form-n-text {
-    margin-right: 86px;
-  }
-}
-
-@media screen and (max-width: 1395px) {
-  .card > img {
-    width: 661px;
-    height: 548px;
-    margin-left: 11px;
-  }
-  .button {
-    left: 156px;
-  }
-  div.bradings {
-    background-color: whitesmoke;
-    height: 431px;
-    width: 429px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    //padding: 0px; 
-  }
-
-  .portfolio {
-    margin-left: 37px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .dp-slider {
-    top: 17%;
-  }
-  .sub-tag {
-    top: 51%;
-  }
-}*/
