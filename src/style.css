@@ -749,27 +749,24 @@ bigger screen to smaller screens*/
         border-radius: 0px;
       
     }
-    .flex{
-      background-color: aqua;
-      width: 340px;
-      margin-left: 10px;
-
-    }
-
-    .flex img
-    {
-      margin-left: 150px;
-      margin-top: 25px;
+    
+    .flex img {
+      margin-left: 125px;
+      margin-top: 22px;
+      width: 125px;
     }
     .br-h
     { 
 
       text-align: center;
       font-weight: bold;
+      line-height: 2px;
+font-size: 23px;
     }
     div.brandings>.service1>img
     {
       width: 50px;
+
     }
     #footer-img
     {
@@ -885,9 +882,19 @@ max-width: 363px;
 }
 
 .quotes-h{
-  font-family: 'Vollkorn', serif;
+  font-family: Montserrat, sans-serif;
+
 line-height: 21px;
 text-align: center;
+}
+.bradings
+{
+  margin-bottom: 13px;
+}
+.flex {
+	background-color: #f2f2f2;
+	width: 340px;
+	margin-left: 10px;
 }
 }
 
