@@ -822,18 +822,11 @@ align-items: center;
       align-content: center;
       justify-content: center;
     }
-    .portfolio
-    {
-      display: grid;
-grid-template-columns: 186px 100px;
-margin-left: 40px;
-    }
 
 .portfolio {
 	display: grid;
 	grid-template-columns: 186px 100px;
 	margin-left: 12px;
-	background: black;
 	row-gap: 15px;
 }
 
@@ -844,7 +837,7 @@ margin-left: 40px;
 	height: 140px;
 }
 .pf-card img {
-	width: 165px;
+	width: 170px;
 	height: 145px;
 }
 .pf-card h5
@@ -859,7 +852,44 @@ margin-left: 40px;
     margin-bottom: -9px;
   
 }
-  }
+.pf-quote 
+{
+  line-height: 24px;
+font-weight: bold;
+font-size: 24px;
+margin-left: 9px;
+}
+.latest-creations
+{
+  display: none;
+}
+.form-n-text
+{
+  margin-top: 25px;
+}
+
+.quotes-heading,h3
+{
+  font-family: 'Source Sans Pro', sans-serif;
+color: #333;
+text-align: center;
+font-size: 10px;
+max-width: 363px;
+} 
+.author{
+  font-family: 'Source Sans Pro', sans-serif;
+color: #333;
+text-align: center;
+font-size: 10px;
+max-width: 363px;
+}
+
+.quotes-h{
+  font-family: 'Vollkorn', serif;
+line-height: 21px;
+text-align: center;
+}
+}
 
 /* 
 @media screen and (max-width: 1434px) {
