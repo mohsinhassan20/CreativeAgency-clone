@@ -419,12 +419,7 @@
     padding-left: 15px;
   }
 
-  #menu,
-  #address,
-  #contact-footer {
-    position: relative;
-    top: 20px;
-  }
+  
   #footer-img {
     width: 80px;
     height: 80px;
@@ -533,16 +528,19 @@ text-transform: uppercase;
   {
     text-decoration: none;
   }
-#name::placeholder
-{  
-  /* text-align: center; */
-position: absolute;
-right: 10px;
-}
-
-text{
+ 
+input,textarea{
   padding: 10px;
 }
+#menu, #address, #contact-footer {
+	position: relative;
+	top: 28px;
+ 
+}
+
+  .footer-text {
+	position: relative;
+	top: 54px;
 }
 
 
