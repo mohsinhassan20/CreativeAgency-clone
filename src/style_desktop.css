@@ -210,16 +210,8 @@
     width: 125px;
     height: 125px;
   }
-  div.bradings {
-    background-color: whitesmoke;
-    height: 431px;
-    width: 453px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
-  }
+ 
+  
   
   .quotes {
     width: 1536px;
@@ -343,17 +335,8 @@
       margin-right: 10px;
     
   }
-  div.bradings {
-    background-color: whitesmoke;
-    height: 431px;
-    width: 494px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0;
-    margin-left: 6px;
-  }
+ 
+  
   .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -552,6 +535,18 @@ input,textarea{
 .button-submit
 {
   width: 112px;
+}
+ 
+div.bradings {
+	background-color: whitesmoke;
+	height: 431px;
+	width: 505px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0;
+	margin-left: 6px;
 }
 .flex {
 	display: flex;
