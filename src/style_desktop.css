@@ -220,11 +220,7 @@
     align-items: center;
     padding: 2px;
   }
-  .flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+  
   .quotes {
     width: 1536px;
     height: 442px;
@@ -514,6 +510,8 @@
     font-weight: bold;
 font-size: 13px;
 text-transform: uppercase;
+margin: 10px 0px ;
+opacity: 70%;
   }
   .text-field,.text-field {
     width: 797px;
@@ -538,9 +536,27 @@ input,textarea{
  
 }
 
-  .footer-text {
+ 
+
+.footer-text {
 	position: relative;
-	top: 54px;
+	top: 31px;
 }
-
-
+.h-contact{
+	text-align: center;
+	font-weight: bold;
+	font-size: 42.2px;
+	letter-spacing: -1.6px;
+	max-width: 810px;
+}
+.button-submit
+{
+  width: 112px;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 7px;
+}
+}
