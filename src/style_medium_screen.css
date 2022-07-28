@@ -1,7 +1,7 @@
 /*universal 
 
 /*medium screens 768 px*/
-@media screen and (min-width: 388px) {
+@media screen and (max-width: 372px) {
   span {
     display: flex;
     width: 99%;
@@ -16,10 +16,10 @@
     display: none;
   }
   .fa.fa-bars.fa-lg {
-    font-size: 3.25em;
-    line-height: 2.05em;
+    font-size: 1.25em;
+    line-height: 1.05em;
     vertical-align: -0.075em;
-    margin-left: 700px;
+    margin-left: 242px;
   }
   .mySlides {
     display: block;
