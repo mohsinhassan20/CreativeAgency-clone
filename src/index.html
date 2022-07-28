@@ -183,7 +183,7 @@
     </div>
 
     <!--Services-->
-    <div class=" services" style="display: flex;">
+    <div class=" services" >
       
       <div class="card gi-1">
         <img src="./images/services.jpeg" alt="servies image" />
@@ -353,12 +353,14 @@
                 />
                 <label class="label lb" for="field">YOUR&nbsp;MESSAGE</label>
                 <textarea
-                  class="text-area"
-                  id="field"
-                  placeholder="Example Text"
-                  name="field"
-                >
-                </textarea>
+                class="text-field"
+                id="email"
+                type="email"
+                placeholder="Example Text"
+                name="email"
+                data-name="Email"
+                required="required"
+              ></textarea> 
                 <input
                   class="button-submit button"
                   type="submit"
