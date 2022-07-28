@@ -388,7 +388,7 @@
     padding: 20px;
     background: #333333;
     position: relative;
-    top: 20px;
+    top: 12px;
     max-width: 1660px;
   }
 
@@ -524,6 +524,9 @@ input,textarea{
 .footer-text {
 	position: relative;
 	top: 31px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #fff;
 }
 .h-contact{
 	text-align: center;
