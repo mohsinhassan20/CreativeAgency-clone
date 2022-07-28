@@ -203,11 +203,7 @@
     background-color: #e3e1d3;
   }
 
-  .branding-types {
-    display: flex;
-    position: relative;
-    margin-left: 77px;
-  }
+ 
   .bradings > img {
     position: relative;
     margin-top: 50px;
@@ -327,14 +323,7 @@
     letter-spacing: -2px;
     line-height: 37px;
   }
-  .branding-types {
-    width: 1548px;
-    height: 408px;
-    display: flex;
-    justify-content: space-between;
-
-    max-width: 1200px;
-  }
+  
   input.button {
     margin-left: 100px;
   }
@@ -412,23 +401,16 @@
     padding-right: 5px;
     padding-bottom: 10px;
   }
-  #contact {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 1600px;
-    height: 639.3px;
-  }
+ 
   /*footer*/
 
   .footer {
-    height: 317px;
+    height: 291px;
     padding: 20px;
-    background: #000;
+    background: #333333;
     position: relative;
     top: 20px;
-    max-width: inherit;
+    max-width: 1660px;
   }
 
   .footer-div {
@@ -447,7 +429,8 @@
     width: 80px;
     height: 80px;
     position: relative;
-    top: 40px;
+    top: 19px;
+    right: 91px;
   }
   .footer-text {
     margin-top: 28px;
@@ -455,15 +438,10 @@
     line-height: 28px;
   }
 
-  element {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 8px;
-  }
+  
   .gi-1 img {
     margin-left: 2px;
-    width: 767px;
+    width: 770px;
     height: 565px;
     background-color: whitesmoke;
   }
@@ -471,5 +449,87 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-top: 14px;
+    gap: 21px;
+  }
+  .gi-4{
+    width: 770px;
+    height: 565px;
+    background-color: whitesmoke;
+    margin-right: 15px;
+  }
+  .brands{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .branding-types {
+    width: 1220px;
+    /* height: 408px; */
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1205px;
+    gap: -13px;
+    margin-left: 174px;
+  }
+  .but
+  {
+    opacity: 72%;
+  }
+  
+  .pf-quote {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 31px;
+  }
+  .author {
+    line-height: 0px;
+    font-size: 19.1px;
+    letter-spacing: -0.9px;
+  }
+  .we-make
+  {
+    opacity: 81%;
+  }
+  .latest-creations {
+    position: relative;
+    top: -17px;
+    font-size: 13px;
+    max-width: 319px;
+  }
+  #contact {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1600px;
+    height: 639.3px;
+    top: -110px;
+  }
+  .we-app
+  {
+      font-family: 'Vollkorn', serif;
+      position: relative;
+      top: -13px;
+    
+  }
+  .lb
+  {
+    font-weight: bold;
+font-size: 13px;
+text-transform: uppercase;
+  }
+  .text-field,.text-field {
+    width: 797px;
+    height: 40px;
+  }
+  .contact-form
+  {
+    margin-top: 15px;
+  }
+  a
+  {
+    text-decoration: none;
   }
 }
