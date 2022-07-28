@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-    <!--<link rel="stylesheet" href="style2.css" />-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,9 +20,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../assets/css/all.min.css" />
+    <link rel="stylesheet" href="./style_desktop.css" />
+    <link rel="stylesheet" href="style_medium_screen.css" />
+    <link rel="stylesheet" href="style_smaller_screens.css" />
   </head>
 
-  <body style="position: sticky;">
+  <body style="position: sticky">
     <span>
       <a href=""><img id="logo" src="./images/logo.png" alt="Logo" /></a>
       <nav>
@@ -35,19 +36,40 @@
         <a href="#">CONTACT</a>
       </nav>
 
-      <i class="fa fa-bars fa-lg " aria-hidden="true"></i>
+      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
     </span>
 
-    
-      <h1 class="dp-slider">
+    <h1 class="dp-slider">
+      We can change <br />
+      your digital world
+    </h1>
+    <h3 class="sub-tag">
+      Bold enough to blow a hole in your next marketing campaign.
+    </h3>
+
+    <img class="mySlides" src="./images/slide1.jpg" />
+    <div class="slider-text"></div>
+    <div
+      class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+      style="width: 100%"
+    >
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1) ">
+        &#10094;
+      </div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+        &#10095;
+      </div>
+    </div>
+    <div>
+      <h1 class="dp-slider dp-slider2">
         We can change <br />
         your digital world
       </h1>
-      <h3 class="sub-tag">
+      <h3 class="sub-tag dp-slider2">
         Bold enough to blow a hole in your next marketing campaign.
       </h3>
 
-      <img class="mySlides" src="./images/slide1.jpg" />
+      <img class="mySlides" src="./images/slide2.jpg" />
       <div class="slider-text"></div>
       <div
         class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
@@ -68,8 +90,7 @@
         <h3 class="sub-tag dp-slider2">
           Bold enough to blow a hole in your next marketing campaign.
         </h3>
-
-        <img class="mySlides" src="./images/slide2.jpg" />
+        <img class="mySlides" src="./images/slide3.jpg" />
         <div class="slider-text"></div>
         <div
           class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
@@ -82,30 +103,8 @@
             &#10095;
           </div>
         </div>
-        <div>
-          <h1 class="dp-slider dp-slider2">
-            We can change <br />
-            your digital world
-          </h1>
-          <h3 class="sub-tag dp-slider2">
-            Bold enough to blow a hole in your next marketing campaign.
-          </h3>
-          <img class="mySlides" src="./images/slide3.jpg" />
-          <div class="slider-text"></div>
-          <div
-            class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
-            style="width: 100%"
-          >
-            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1) ">
-              &#10094;
-            </div>
-            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
-              &#10095;
-            </div>
-          </div>
-        </div>
       </div>
-    
+    </div>
 
     <!--About container-->
     <div class="about grid-container">
@@ -214,10 +213,7 @@
       <div class="branding-types">
         <div class="flex">
           <div class="bradings service1">
-            <img
-              src="./images/branding1.svg"
-               alt=""
-            />
+            <img src="./images/branding1.svg" alt="" />
             <h1 class="br-h">Branding</h1>
             <p class="br-p">
               Focus infographic venture business model canvas gamification
@@ -258,12 +254,7 @@
       </div>
     </div>
     <div class="quotes" style="position: relative">
-      <h1
-        class="quotes-h"
-         
-      >
-        Our clients <br />love our work
-      </h1>
+      <h1 class="quotes-h">Our clients <br />love our work</h1>
       <h5 class="">But don’t just take our word for it...</h5>
 
       <div class="saying" style="position: relative">
@@ -329,8 +320,7 @@
       <div class="row">
         <div>
           <div id="form-n-text">
-            <h2 class=" h-contact" style="text-align: center;
-            font-weight: bold;">
+            <h2 class="h-contact" style="text-align: center; font-weight: bold">
               Write us a letter
             </h2>
             <h5 class="we-app" style="font-family: Vollkorn, serif">
