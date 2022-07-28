@@ -556,4 +556,10 @@ div.bradings {
 	align-items: center;
 	gap: 7px;
 }
+.content-g2
+{
+    position: relative;
+    top: 51px;
+  
+}
 }
