@@ -23,14 +23,13 @@
     color: aliceblue;
     margin-left: 46px;
     text-decoration-line: blink;
-  }
-  nav {
+  }nav {
     background: transparent;
     padding-top: 33px;
     align-items: center;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
-    margin-left: 75px;
+    margin-left: 54px;
   }
   .fa.fa-bars {
     display: none;
