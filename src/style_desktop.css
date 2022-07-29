@@ -13,7 +13,8 @@
     display: flex;
     position: absolute;
     top: 21px;
-  }#logo {
+  }
+  #logo {
     margin-top: 14px;
     width: 60px;
     margin-left: 117px;
@@ -23,7 +24,8 @@
     color: aliceblue;
     margin-left: 46px;
     text-decoration-line: blink;
-  }nav {
+  }
+  nav {
     background: transparent;
     padding-top: 33px;
     align-items: center;
@@ -34,7 +36,9 @@
   .fa.fa-bars {
     display: none;
   }
-  .w3-left, .w3-right, .w3-badge {
+  .w3-left,
+  .w3-right,
+  .w3-badge {
     cursor: pointer;
     font-size: 25px;
   }
@@ -103,8 +107,8 @@
     font-weight: 400;
   }
 
- 
-  .card, .card > img {
+  .card,
+  .card > img {
     width: 770px;
     height: 565px;
     background-color: whitesmoke;
@@ -112,7 +116,8 @@
   .gi-2 {
     position: relative;
     background-color: whitesmoke;
-  }.grid-container {
+  }
+  .grid-container {
     position: relative;
     grid-template-columns: 1fr 1fr;
     display: grid;
@@ -126,7 +131,7 @@
     top: 6px;
     margin-left: 6px;
   }
-  
+
   .button {
     width: 155.417px;
     height: 54px;
@@ -203,16 +208,13 @@
     background-color: #e3e1d3;
   }
 
- 
   .bradings > img {
     position: relative;
     margin-top: 50px;
     width: 125px;
     height: 125px;
   }
- 
-  
-  
+
   .quotes {
     width: 1536px;
     height: 442px;
@@ -230,7 +232,6 @@
     align-items: center;
   }
 
-   
   .pf-card {
     width: 324px;
   }
@@ -311,7 +312,7 @@
     letter-spacing: -2px;
     line-height: 37px;
   }
-  
+
   input.button {
     margin-left: 100px;
   }
@@ -328,15 +329,12 @@
     font-style: italic;
     font-weight: 400;
   }
-  .myslides img
-  {
-      display: block;
-      width: 20%;
-      margin-right: 10px;
-    
+  .myslides img {
+    display: block;
+    width: 20%;
+    margin-right: 10px;
   }
- 
-  
+
   .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -380,7 +378,7 @@
     padding-right: 5px;
     padding-bottom: 10px;
   }
- 
+
   /*footer*/
 
   .footer {
@@ -398,7 +396,6 @@
     padding-left: 15px;
   }
 
-  
   #footer-img {
     width: 80px;
     height: 80px;
@@ -412,7 +409,6 @@
     line-height: 28px;
   }
 
-  
   .gi-1 img {
     margin-left: 2px;
     width: 770px;
@@ -426,17 +422,17 @@
     margin-top: 14px;
     gap: 21px;
   }
-  .gi-4{
+  .gi-4 {
     width: 770px;
     height: 565px;
     background-color: whitesmoke;
     margin-right: 15px;
   }
-  .brands{
+  .brands {
     display: flex;
     margin-top: 20px;
   }
-  
+
   .branding-types {
     width: 1220px;
     /* height: 408px; */
@@ -446,11 +442,10 @@
     gap: -13px;
     margin-left: 174px;
   }
-  .but
-  {
+  .but {
     opacity: 72%;
   }
-  
+
   .pf-quote {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -462,8 +457,7 @@
     font-size: 19.1px;
     letter-spacing: -0.9px;
   }
-  .we-make
-  {
+  .we-make {
     opacity: 81%;
   }
   .latest-creations {
@@ -481,87 +475,78 @@
     height: 639.3px;
     top: -110px;
   }
-  .we-app
-  {
-      font-family: 'Vollkorn', serif;
-      position: relative;
-      top: -13px;
-    
+  .we-app {
+    font-family: "Vollkorn", serif;
+    position: relative;
+    top: -13px;
   }
-  .lb
-  {
+  .lb {
     font-weight: bold;
-font-size: 13px;
-text-transform: uppercase;
-margin: 10px 0px ;
-opacity: 70%;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    opacity: 70%;
   }
-  .text-field,.text-field {
+  .text-field,
+  .text-field {
     width: 797px;
     height: 40px;
-    
   }
-  .contact-form
-  {
+  .contact-form {
     margin-top: 15px;
   }
-  a
-  {
+  a {
     text-decoration: none;
   }
- 
-input,textarea{
-  padding: 10px;
-}
-#menu, #address, #contact-footer {
-	position: relative;
-	top: 28px;
- 
-}
 
- 
+  input,
+  textarea {
+    padding: 10px;
+  }
+  #menu,
+  #address,
+  #contact-footer {
+    position: relative;
+    top: 28px;
+  }
 
-.footer-text {
-	position: relative;
-	top: 31px;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  color: #fff;
-}
-.h-contact{
-	text-align: center;
-	font-weight: bold;
-	font-size: 42.2px;
-	letter-spacing: -1.6px;
-	max-width: 810px;
-}
-.button-submit
-{
-  width: 112px;
-}
- 
- 
-.flex {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 7px;
-}
-.content-g2
-{
+  .footer-text {
+    position: relative;
+    top: 31px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+  .h-contact {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42.2px;
+    letter-spacing: -1.6px;
+    max-width: 810px;
+  }
+  .button-submit {
+    width: 112px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+  }
+  .content-g2 {
     position: relative;
     top: 51px;
-  
-}
-div.bradings {
-	background-color: whitesmoke;
-	height: 431px;
-	width: 512px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	padding: 0;
-	margin-left: 6px;
-}
+  }
+  div.bradings {
+    background-color: whitesmoke;
+    height: 431px;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin-left: 6px;
+  }
 }
